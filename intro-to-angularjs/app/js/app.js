@@ -19,7 +19,7 @@ app.config(function($routeProvider) {
 app.service("AuthenticationService", function($location) {
     return {
         login: function(credentials) {
-            if (credentials.username !== "Tao" || credentials.password !== "Liu") {
+            if (credentials.username !== "Sharon" || credentials.password !== "Rolel") {
                 alert("Wrong username and/or password");
             } else {
                 $location.path('/home');
